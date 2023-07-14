@@ -1,24 +1,65 @@
 <!DOCTYPE html>
+<!-- idioma -->
 <html lang="pt-BR">
+
+<!--  head -->
 <head>
+    <!--  formato de codificação -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="img/favicon-white.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- arquivo css -->
     <link rel="stylesheet" href="styles.css">
+    <!-- script animação -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> 
+    <!--  title -->
     <title>Página não encontrada</title>
 </head>
+
+<!--  body -->
 <body>
+
+    <!--  div app -->
     <div id="app">
+        
+        <!--  main -->
         <main>
-            <aside>
-                <h1>Ops, está páginanão foi encontrada</h1>
-                <p>Parace que você se perdeu...
-                    tente voltar para a página anterior ou acessar o inicio.</p>
-                    <div class="button-wrapper">
-                        <a class="btn" href="#">Voltar</a>
-                        <a class="btn" href="#">Ir para o inicio</a>
-                    </div>
-            </aside>
+
+             <!--  h1 -->
+            <h1>Ops, está página não foi encontrada</h1>
+            <!--  p -->
+            <p>Parace que você se perdeu...
+                tente voltar para a página anterior ou acessar o inicio.</p>
+
+            <div class="button-wrapper">
+
+                <!--  Âncora -->
+                <a class="btn" href="#">Voltar</a>
+                <a class="btn" href="#">Ir para o inicio</a>
+            </div>
         </main>
+
+        <!--  aside -->
+        <aside>
+            
+            <!--  SVG -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="81" height="107" viewBox="0 0 81 107" fill="none">
+                <path d="M0.84375 84.9688L13.832 6.74219H33.7969L20.6602 84.9688H0.84375ZM0.84375 84.9688L12.4961 67.082H52.7969V84.9688H0.84375ZM69.3477 84.9688V67.082H81V84.9688H69.3477ZM51.3125 106.195V0.804688H70.832V106.195H51.3125Z" fill="#C3FB7B"/>
+            </svg>
+
+            <!--  animação -->
+                <lottie-player src="https://lottie.host/ab7a5c4d-d0de-4877-be5e-8cffedab2bf1/f7kJBYBWYz.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+
+            <!--  SVG -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="81" height="107" viewBox="0 0 81 107" fill="none">
+                <path d="M0 84.9688L12.9883 6.74219H32.9531L19.8164 84.9688H0ZM0 84.9688L11.6523 67.082H51.9531V84.9688H0ZM68.5039 84.9688V67.082H80.1562V84.9688H68.5039ZM50.4688 106.195V0.804688H69.9883V106.195H50.4688Z" fill="#C3FB7B"/>
+            </svg>
+        </aside>
     </div>
 </body>
+
 </html>
